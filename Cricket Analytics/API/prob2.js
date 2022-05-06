@@ -23,9 +23,7 @@ module.exports = function (req, res) {
         .on('data', (data) => {
             data.BATSMAN_RUNS === '4' ? (temp_4 = 1) : (temp_4 = 0);
             data.BATSMAN_RUNS === '6' ? (temp_6 = 1) : (temp_6 = 0);
-            var value = ]matchObj?.[nfinalObj[data.MATCH_ID]]?.[data.BATTING_TEAM];
-            //data.BATTING_TEAM in matchObj[data.MATCH_ID] ? (
-            //matchObj.hasOwnProperty(data.BATTING_TEAM) ? (
+            var value = matchObj?.[nfinalObj[data.MATCH_ID]]?.[data.BATTING_TEAM];
             (value !== undefined) ? (
                 matchObj[nfinalObj[data.MATCH_ID]] = {
                     ...matchObj[nfinalObj[data.MATCH_ID]],
