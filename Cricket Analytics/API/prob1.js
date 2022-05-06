@@ -3,7 +3,7 @@ const fs = require('fs');
 
 var countObj = {};
 var data16 = {};
-var data17 = [];
+var data17 = {};
 
 module.exports = function (req, res) {
     fs.createReadStream('matches.csv')
@@ -24,12 +24,7 @@ module.exports = function (req, res) {
                 countObj['2016'] = { ...countObj['2016'], [i]: [sortedd16[i], data16[sortedd16[i]]] }
                 countObj['2017'] = { ...countObj['2017'], [i]: [sortedd17[i], data17[sortedd17[i]]] }
             }
-
-            //console.log(countObj);
             res.status(200).send(countObj);
             res.end();
-            //res.writeHead(200);
-            //res.end();
-
         });
 }

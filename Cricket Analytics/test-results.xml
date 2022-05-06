@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="45.0770" tests="4" failures="3">
-  <testsuite name="Root Suite" timestamp="2022-05-05T18:09:32" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="36.6350" tests="4" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-05-06T20:32:09" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Preparing to test API" timestamp="2022-05-05T18:09:32" tests="0" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="0.0000" failures="0">
+  <testsuite name="Preparing to test API" timestamp="2022-05-06T20:32:09" tests="0" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="API testing started" timestamp="2022-05-05T18:09:32" tests="4" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="45.0770" failures="3">
-    <testcase name="Preparing to test API API testing started it should test prob1 API" time="0.0640" classname="it should test prob1 API">
+  <testsuite name="API testing started" timestamp="2022-05-06T20:32:09" tests="4" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="36.6350" failures="2">
+    <testcase name="Preparing to test API API testing started it should test prob1 API" time="0.0600" classname="it should test prob1 API">
     </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob2 API" time="10.0020" classname="it should test prob2 API">
+    <testcase name="Preparing to test API API testing started it should test prob2 API" time="1.5620" classname="it should test prob2 API">
+    </testcase>
+    <testcase name="Preparing to test API API testing started it should test prob3 API" time="10.0070" classname="it should test prob3 API">
       <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.
     at Timeout.<anonymous> (D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\node_modules\mocha\lib\runnable.js:226:19)
     at listOnTimeout (node:internal/timers:557:17)
     at processTimers (node:internal/timers:500:7)]]></failure>
     </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob3 API" time="10.0000" classname="it should test prob3 API">
-      <failure message="timeout of 10000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 10000ms exceeded. Ensure the done() callback is being called in this test.
-    at Timeout.<anonymous> (D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\node_modules\mocha\lib\runnable.js:226:19)
-    at listOnTimeout (node:internal/timers:557:17)
-    at processTimers (node:internal/timers:500:7)]]></failure>
-    </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob 4 API" time="25.0110" classname="it should test prob 4 API">
+    <testcase name="Preparing to test API API testing started it should test prob 4 API" time="25.0060" classname="it should test prob 4 API">
       <failure message="timeout of 25000ms exceeded. Ensure the done() callback is being called in this test." type="Error"><![CDATA[Error: timeout of 25000ms exceeded. Ensure the done() callback is being called in this test.
     at Timeout.<anonymous> (D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\node_modules\mocha\lib\runnable.js:226:19)
     at listOnTimeout (node:internal/timers:557:17)
