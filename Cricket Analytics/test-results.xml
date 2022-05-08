@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="7.1730" tests="4" failures="1">
-  <testsuite name="Root Suite" timestamp="2022-05-08T10:18:13" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="5.9750" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-05-08T13:28:06" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Preparing to test API" timestamp="2022-05-08T10:18:13" tests="0" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="0.0000" failures="0">
+  <testsuite name="Preparing to test API" timestamp="2022-05-08T13:28:06" tests="0" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="API testing started" timestamp="2022-05-08T10:18:13" tests="4" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="7.1730" failures="1">
-    <testcase name="Preparing to test API API testing started it should test prob1 API" time="0.1450" classname="it should test prob1 API">
+  <testsuite name="API testing started" timestamp="2022-05-08T13:28:06" tests="4" file="D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js" time="5.9750" failures="0">
+    <testcase name="Preparing to test API API testing started it should test prob1 API" time="0.0610" classname="it should test prob1 API">
     </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob2 API" time="2.0130" classname="it should test prob2 API">
+    <testcase name="Preparing to test API API testing started it should test prob2 API" time="1.5010" classname="it should test prob2 API">
     </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob3 API" time="3.1660" classname="it should test prob3 API">
+    <testcase name="Preparing to test API API testing started it should test prob3 API" time="2.5440" classname="it should test prob3 API">
     </testcase>
-    <testcase name="Preparing to test API API testing started it should test prob 4 API" time="1.8490" classname="it should test prob 4 API">
-      <failure message="AssertionError: expected { Object (Kolkata Knight Riders, Royal Challengers Bangalore, ...) } to have a property &apos;netRunRate&apos;" type="Error"><![CDATA[Error: AssertionError: expected { Object (Kolkata Knight Riders, Royal Challengers Bangalore, ...) } to have a property 'netRunRate'
-    at D:\Study\MERN\FP_Challenge\MiniProject_NodeJS\Cricket Analytics\test\test.js:166:26
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="Preparing to test API API testing started it should test prob 4 API" time="1.8690" classname="it should test prob 4 API">
     </testcase>
   </testsuite>
 </testsuites>
