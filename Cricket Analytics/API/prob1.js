@@ -24,6 +24,7 @@ module.exports = function (req, res) {
                 countObj['2016'] = { ...countObj['2016'], [i]: [sortedd16[i], data16[sortedd16[i]]] }
                 countObj['2017'] = { ...countObj['2017'], [i]: [sortedd17[i], data17[sortedd17[i]]] }
             }
+            console.log("PROB1 Completed");
             res.status(200).send(countObj);
             res.end();
         });

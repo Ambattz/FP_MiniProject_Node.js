@@ -17,7 +17,7 @@ module.exports = function (req, res) {
         .on('data', (data) => {
             nfinalObj[data.MATCH_ID] = [data.SEASON];
         })
-        .on('end', function () { console.log("ID Season Created"); });
+        .on('end', function () { });
     fs.createReadStream('deliveries.csv')
         .pipe(csv())
         .on('data', (data) => {
@@ -44,7 +44,9 @@ module.exports = function (req, res) {
         })
         .on('end', function () {
             //some final operation
+            console.log("PROB2 Completed");
             res.status(200).send(matchObj);
             res.end();
+
         });
 }
