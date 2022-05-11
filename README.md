@@ -21,10 +21,10 @@ This mini-project covers the practical implementation of the core concepts of No
 ## PRE-REQUISITES
 * NodeJS
 
-## SCREENSHOTS!
-![2022-05-10 (1)](https://user-images.githubusercontent.com/69767685/167624978-7c54fb74-5df4-4025-bb50-45fb63eeb60c.png)
-![2022-05-10 (2)](https://user-images.githubusercontent.com/69767685/167624982-223feccb-8d20-4df6-94b5-12f43fbd98f1.png)
-![2022-05-10 (3)](https://user-images.githubusercontent.com/69767685/167624984-46cb9d3c-f8e5-43cc-ba83-8c46c3dbb94d.png)
+## SCREENSHOTS
+ .         | .
+:-------------------------:|:-------------------------:
+![2022-05-10 (1)](https://user-images.githubusercontent.com/69767685/167624978-7c54fb74-5df4-4025-bb50-45fb63eeb60c.png)|![2022-05-10 (2)](https://user-images.githubusercontent.com/69767685/167624982-223feccb-8d20-4df6-94b5-12f43fbd98f1.png)|![2022-05-10 (3)](https://user-images.githubusercontent.com/69767685/167624984-46cb9d3c-f8e5-43cc-ba83-8c46c3dbb94d.png)
 ![2022-05-10 (4)](https://user-images.githubusercontent.com/69767685/167624991-e5c1d41c-9858-4035-a99d-ae1d620d6bd1.png)
 
 
